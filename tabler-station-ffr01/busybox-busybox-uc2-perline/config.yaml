@@ -4,13 +4,14 @@ data:
   REGION: East US
   SOME_COMMON_ENVIRONMENT_VARIABLE: "false"
   acrHostname: pg.acr.io
-  backendVersion: v1234
   deviceName: test123
   factoryID: "10"
   factoryName: Tabler Station
   historian.password: my-super-secret
   lower: ffr01
-  uiEnabled: "true"
+  uc2-config.yaml: |
+    backendVersion: v1234
+    uiEnabled: "true"
   upper: FFR01changed
 kind: ConfigMap
 metadata:
