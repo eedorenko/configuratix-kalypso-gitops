@@ -15,4 +15,4 @@ data:
 kind: ConfigMap
 metadata:
   name: platform-config
-  namespace: dev-busybox-team-busybox-busybox-uc2-perline
+  namespace: dev-tabler-station-ffr06-busybox-busybox-uc2-perline

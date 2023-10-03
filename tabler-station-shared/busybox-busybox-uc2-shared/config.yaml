@@ -26,4 +26,4 @@ data:
 kind: ConfigMap
 metadata:
   name: platform-config
-  namespace: dev-busybox-team-busybox-busybox-uc2-shared
+  namespace: dev-tabler-station-shared-busybox-busybox-uc2-shared
