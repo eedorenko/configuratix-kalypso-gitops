@@ -18,7 +18,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  targetNamespace: tabler-station-shared-busybox-busybox-uc2-shared 
+  targetNamespace: dev-tabler-station-shared-busybox-busybox-uc2-shared
   sourceRef:
     kind: GitRepository
     name: busybox-busybox-uc2-shared
