@@ -1,10 +1,11 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: tabler-station-ffr06-busybox-busybox-uc2-perline 
+  name: dev-tabler-station-ffr06-busybox-busybox-uc2-perline 
   labels:
     environment: dev
     workspace: busybox-team
     workload: busybox
     deploymentTarget: busybox-busybox-uc2-perline
     someLabel: some-value
+    

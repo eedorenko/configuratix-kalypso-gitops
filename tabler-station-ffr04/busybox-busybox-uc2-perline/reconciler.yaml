@@ -18,7 +18,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  targetNamespace: tabler-station-ffr04-busybox-busybox-uc2-perline 
+  targetNamespace: dev-tabler-station-ffr04-busybox-busybox-uc2-perline
   sourceRef:
     kind: GitRepository
     name: busybox-busybox-uc2-perline
