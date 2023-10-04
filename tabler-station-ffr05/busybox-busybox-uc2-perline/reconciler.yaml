@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: busybox-busybox-uc2-perline
+  name: busybox-busybox-uc2-perline-tabler-station-ffr05
   namespace: flux-system
 spec:
   interval: 30s
@@ -14,13 +14,13 @@ spec:
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: busybox-busybox-uc2-perline
+  name: busybox-busybox-uc2-perline-tabler-station-ffr05
   namespace: flux-system
 spec:
   interval: 30s
   targetNamespace: dev-tabler-station-ffr05-busybox-busybox-uc2-perline
   sourceRef:
     kind: GitRepository
-    name: busybox-busybox-uc2-perline
+    name: busybox-busybox-uc2-perline-tabler-station-ffr05
   path: ./usecases/uc2/busybox-uc2-perline 
   prune: true
