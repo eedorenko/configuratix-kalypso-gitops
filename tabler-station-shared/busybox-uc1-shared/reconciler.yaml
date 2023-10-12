@@ -22,7 +22,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: dev.busybox-team.uc1.busybox-uc1-shared.tabler-station-shared
-  path: ./usecases/uc1/busybox-uc1-shared 
+  path: ./usecases/uc1/uc1-shared 
   suspend: false
   prune: true
 
