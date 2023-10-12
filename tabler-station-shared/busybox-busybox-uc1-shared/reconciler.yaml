@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: busybox-busybox-uc1-shared-tabler-station-shared
+  name: dev.busybox-busybox-uc1-shared.tabler-station-shared
   namespace: flux-system
 spec:
   interval: 30s
@@ -14,14 +14,16 @@ spec:
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: busybox-busybox-uc1-shared-tabler-station-shared
+  name: dev.busybox-busybox-uc1-shared.tabler-station-shared
   namespace: flux-system
 spec:
   interval: 30s
   targetNamespace: dev-tabler-station-shared-busybox-busybox-uc1-shared
   sourceRef:
     kind: GitRepository
-    name: busybox-busybox-uc1-shared-tabler-station-shared
+    name: dev.busybox-busybox-uc1-shared.tabler-station-shared
   path: ./usecases/uc1/busybox-uc1-shared 
-  suspend: true
+  suspend: false
   prune: true
+
+  
