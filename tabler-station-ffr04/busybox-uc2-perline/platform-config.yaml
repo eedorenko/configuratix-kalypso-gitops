@@ -6,7 +6,7 @@ data:
   acrHostname: pg.acr.io
   deviceName: test12345
   factoryID: "10"
-  factoryName: Tabler station
+  factoryName: Tabler Station
   historian.password: my-super-secret
   lower: ffr04
   uc2-config.yaml: |
