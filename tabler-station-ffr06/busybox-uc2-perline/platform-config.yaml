@@ -1,0 +1,19 @@
+apiVersion: v1
+data:
+  ENVIRONMENT: Dev
+  REGION: Far East US
+  SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
+  acrHostname: pg.acr.io
+  deviceName: test12345
+  factoryID: "10"
+  factoryName: Tabler Station
+  historian.password: my-super-secret
+  lower: ffr06
+  uc2-config.yaml: |
+    backendVersion: v2222
+    uiEnabled: "false"
+  upper: FFR06
+kind: ConfigMap
+metadata:
+  name: platform-config
+  namespace: dev-tabler-station-ffr06-busybox-uc2-perline
