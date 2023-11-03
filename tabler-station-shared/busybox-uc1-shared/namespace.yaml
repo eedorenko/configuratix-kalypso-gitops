@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev-tabler-station-shared-busybox-uc1-shared 
+  labels:
+    environment: dev
+    workspace: busybox-team
+    workload: busybox
+    deploymentTarget: busybox-uc1-shared
+    someLabel: some-value
+    
