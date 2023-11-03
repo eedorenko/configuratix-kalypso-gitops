@@ -18,17 +18,6 @@ data:
     tags: |
         - ffr4_tag_1
         - ffr4_tag_2
-  uc2-ffr01-config.yaml: |
-    uiEnabled: "true"
-    uiSecurityGroup: ad-group-team1
-  uc2-ffr04-config.yaml: |
-    uiEnabled: "true"
-    uiSecurityGroup: ad-group-team1
-  uc2-ffr05-config.yaml: |
-    ffr05.uiEnabled: "true"
-    ffr05.uiSecurityGroup: ad-group-team1
-  uc2-ffr06-config.yaml: |
-    uiEnabled: "false"
 kind: ConfigMap
 metadata:
   name: platform-config
