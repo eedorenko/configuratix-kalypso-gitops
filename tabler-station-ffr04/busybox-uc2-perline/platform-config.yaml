@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENVIRONMENT: Dev
-  REGION: Far East US
+  REGION: Far Far Away
   SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
   acrHostname: pg.acr.io
   deviceName: test123456
