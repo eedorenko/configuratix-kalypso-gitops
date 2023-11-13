@@ -5,8 +5,8 @@ on:
     branches:
       - '*'
       - '!main'
-    paths-ignore:
-      - '.github/**'      
+    # paths-ignore:
+    #   - '.github/**'      
 
 jobs:
   Check_deployment_in_control_plane:
