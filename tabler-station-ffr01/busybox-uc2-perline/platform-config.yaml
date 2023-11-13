@@ -4,7 +4,7 @@ data:
   REGION: Far East US
   SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
   acrHostname: pg.acr.io
-  deviceName: test12345
+  deviceName: test123456
   factoryID: "10"
   factoryName: Tabler Station
   historian.password: my-super-secret
