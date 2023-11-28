@@ -18,7 +18,7 @@ data:
     sqlVersion: v34567
     tags: |
         - ffr4_tag_1
-        - ffr4_tag_2
+        - ffr4_tag_3
 kind: ConfigMap
 metadata:
   name: platform-config
