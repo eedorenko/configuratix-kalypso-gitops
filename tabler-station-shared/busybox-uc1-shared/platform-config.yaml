@@ -13,7 +13,7 @@ data:
     tags: |
         - ffr1_tag_10
         - ffr1_tag_20
-        - ffr1_tag_35
+        - ffr1_tag_37
   uc1-ffr04-config.yaml: |
     sqlVersion: v34567
     tags: |
