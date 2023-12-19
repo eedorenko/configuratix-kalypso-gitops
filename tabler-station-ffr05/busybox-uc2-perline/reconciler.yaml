@@ -25,5 +25,40 @@ spec:
   path: ./usecases/uc2/uc2-perline 
   suspend: false
   prune: true
-
-  
+---
+apiVersion: fabric.symphony/v1
+kind: Target
+metadata:
+  name: k8s-target
+  namespace: dev-tabler-station-ffr05-busybox-uc2-perline
+spec:   
+  topologies:
+  - bindings:
+    - role: helm.v3
+      provider: providers.target.helm
+      config:
+        inCluster: "true"        
+    - role: yaml.k8s
+      provider: providers.target.kubectl
+      config:
+        inCluster: "true"
+    - role: instance
+      provider: providers.target.k8s
+      config:
+        inCluster: "true"   
+        deploymentStrategy: "services"
+    - role: config
+      provider: providers.target.configmap
+      config:
+        inCluster: "true"        
+---
+apiVersion: solution.symphony/v1
+kind: Instance
+metadata:
+  name: dev.busybox-team.uc2.busybox-uc2-perline.tabler-station-ffr05
+  namespace: dev-tabler-station-ffr05-busybox-uc2-perline
+spec:
+  solution: busybox-uc2-perline
+  scope: dev-tabler-station-ffr05-busybox-uc2-perline
+  target: 
+    name: k8s-target    
