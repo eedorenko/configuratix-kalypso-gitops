@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-config
+  namespace: dev-tabler-station-ffr01-busybox-uc2-perline
+data:
+  map[ENVIRONMENT:Dev REGION:Far Far Away SOME_COMMON_ENVIRONMENT_VARIABLE:true acrHostname:pg.acr.io deviceName:test123456 factoryID:10 factoryName:Tabler Station historian.password:my-super-secret lower:ffr01 uc2-config.yaml:backendVersion: v1234
+uiEnabled: &#34;true&#34;
+ upper:FFR01changed]
+  
