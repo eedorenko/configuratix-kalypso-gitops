@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-config
+  namespace: dev-tabler-station-shared-busybox-uc1-shared
+data:
+  
+      ENVIRONMENT: Dev
+  
+      REGION: Far Far Away
+  
+      SOME_COMMON_ENVIRONMENT_VARIABLE: true
+  
+      acrHostname: pg.acr.io
+  
+      deviceName: test1234567
+  
+      factoryID: 11
+  
+      factoryName: Tabler Station
+  
+      historian.password: my-super-secret
+  
+      uc1-ffr01-config.yaml: sqlVersion: v12345
+tags: |
+    - ffr1_tag_10
+    - ffr1_tag_20
+    - ffr1_tag_37
+
+  
+      uc1-ffr04-config.yaml: sqlVersion: v34567
+tags: |
+    - ffr4_tag_1
+    - ffr4_tag_3
+
+  

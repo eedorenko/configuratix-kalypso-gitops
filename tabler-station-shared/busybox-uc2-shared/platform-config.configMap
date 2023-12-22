@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-config
+  namespace: dev-tabler-station-shared-busybox-uc2-shared
+data:
+  ENVIRONMENT: Dev
+  REGION: Far Far Away
+  SOME_COMMON_ENVIRONMENT_VARIABLE: &#34;true&#34;
+  acrHostname: pg.acr.io
+  deviceName: test1234567
+  factoryID: &#34;11&#34;
+  factoryName: Tabler Station
+  historian.password: my-super-secret
+  uc2-ffr01-config.yaml: |
+    uiEnabled: &#34;true&#34;
+    uiSecurityGroup: ad-group-team1
+  uc2-ffr04-config.yaml: |
+    uiEnabled: &#34;true&#34;
+    uiSecurityGroup: ad-group-team1
+  uc2-ffr05-config.yaml: |
+    ffr05.uiEnabled: &#34;true&#34;
+    ffr05.uiSecurityGroup: ad-group-team1
+  uc2-ffr06-config.yaml: |
+    uiEnabled: &#34;false&#34;
