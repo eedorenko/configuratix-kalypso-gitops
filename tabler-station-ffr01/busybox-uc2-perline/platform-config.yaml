@@ -5,13 +5,13 @@ metadata:
   namespace: dev-tabler-station-ffr01-busybox-uc2-perline
 spec:  
   type: config
-  name: catalog-platform-config
+  name: platform-config
   properties:
     ENVIRONMENT: Dev
     REGION: Far Far Away
     SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
     acrHostname: pg.acr.io
-    deviceName: test12345678
+    deviceName: test123456789
     factoryID: "11"
     factoryName: Tabler Station
     historian.password: my-super-secret
