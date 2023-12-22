@@ -1,22 +1,19 @@
-apiVersion: federation.symphony/v1
-kind: Catalog
+apiVersion: v1
+kind: ConfigMap
 metadata:
-  name: catalog-platform-config
-  namespace: dev-tabler-station-ffr01-busybox-uc2-perline
-spec:  
-  type: config
   name: platform-config
-  properties:
-    ENVIRONMENT: Dev
-    REGION: Far Far Away
-    SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
-    acrHostname: pg.acr.io
-    deviceName: test123456789
-    factoryID: "11"
-    factoryName: Tabler Station
-    historian.password: my-super-secret
-    lower: ffr01
-    uc2-config.yaml: |
-      backendVersion: v1234
-      uiEnabled: "true"
-    upper: FFR01changed
+  namespace: dev-tabler-station-ffr01-busybox-uc2-perline
+data:
+  ENVIRONMENT: Dev
+  REGION: Far Far Away
+  SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
+  acrHostname: pg.acr.io
+  deviceName: test123456789
+  factoryID: "11"
+  factoryName: Tabler Station
+  historian.password: my-super-secret
+  lower: ffr01
+  uc2-config.yaml: |
+    backendVersion: v1234
+    uiEnabled: "true"
+  upper: FFR01changed
