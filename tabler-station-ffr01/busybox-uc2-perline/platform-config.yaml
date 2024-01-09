@@ -8,7 +8,7 @@ spec:
   name: platform-config
   properties:
     ENVIRONMENT: Dev
-    REGION: Far Far Far Far Away
+    REGION: Far Far Away
     SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
     acrHostname: pg.acr.io
     deviceName: test123456789
@@ -16,6 +16,7 @@ spec:
     factoryName: Tabler Station
     historian.password: my-super-secret
     lower: ffr01
+    replicas: "2"
     uc2-config.yaml: |
       backendVersion: v1234
       uiEnabled: "true"
