@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev-trogdor-line1-az-vote-edge 
+  labels:
+    environment: dev
+    workspace: trodgor-team
+    workload: az-vote
+    deploymentTarget: az-vote-edge
+    someLabel: some-value
+    

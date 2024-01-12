@@ -1,0 +1,16 @@
+apiVersion: federation.symphony/v1
+kind: Catalog
+metadata:
+  name: catalog-platform-config
+  namespace: dev-trogdor-line1-az-vote-edge
+spec:  
+  type: config
+  name: platform-config
+  properties:
+    ENVIRONMENT: Dev
+    REDIS: azure-vote-back
+    REGION: Far Far Away
+    SOME_COMMON_ENVIRONMENT_VARIABLE: "true"
+    TITLE: Voting Application from Cloud
+    VOTE1VALUE: Picard
+    VOTE2VALUE: Kirk
