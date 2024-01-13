@@ -1,11 +1,9 @@
 apiVersion: federation.symphony/v1
 kind: Catalog
 metadata:
-  name: catalog-platform-config
-  namespace: dev-tabler-station-ffr04-busybox-uc2-perline
+  name: busybox-tabler-station-ffr04-config-18155215650601212926
 spec:  
   type: config
-  name: platform-config
   properties:
     ENVIRONMENT: Dev
     REGION: Far Far Away
