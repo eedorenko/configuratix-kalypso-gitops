@@ -2,7 +2,6 @@ apiVersion: federation.symphony/v1
 kind: Catalog
 metadata:
   name: catalog-platform-config
-  namespace: dev-tabler-station-ffr01-busybox-uc2-perline
 spec:  
   type: config
   name: platform-config
