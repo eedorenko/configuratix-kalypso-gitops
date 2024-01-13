@@ -1,0 +1,11 @@
+apiVersion: federation.symphony/v1
+kind: Catalog
+metadata:
+  name: az-vote-line1-config-16800257682911334898
+spec:  
+  type: config
+  properties:
+    REDIS: azure-vote-back
+    TITLE: Voting Application from Cloud
+    VOTE1VALUE: Picard
+    VOTE2VALUE: Kirk
